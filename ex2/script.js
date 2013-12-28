@@ -1,10 +1,14 @@
-window.onload=function() {
-function peste()
-{
+function peste()	{
 	document.getElementsByTagName("button")[0].onclick=function()
 	{
-		document.getElementById("target").style.display="block";
+		document.getElementById("target").style.display="block"
 	};
+	
+
 };
-}
+
+window.onload=function() { peste()};
+
+
+
 
